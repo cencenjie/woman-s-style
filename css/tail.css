@@ -1,0 +1,94 @@
+@charset:'utf-8';
+
+#tail .forauto{
+	width:1200px;
+	margin:0 auto;
+}
+#tail .help{
+	padding:50px 0 30px;
+	border-bottom:3px solid #FF5777;
+}
+#tail .help li{
+	float:left;
+	width:280px;
+	padding-left: 20px;
+}
+#tail .help li h3{
+	width:160px;
+	line-height:40px;
+	padding-left:30px;
+	color:#666;
+}
+#tail .help li div{
+	width:160px;
+
+}
+#tail .help li div p{
+	float:left;
+	width:80px;
+	line-height:20px;
+	color:#AAA;
+}
+#tail .help li div p a {
+	color:#AAA;
+}
+#tail .help li div p a:hover{
+	color:#FF5577;
+}
+#tail .help .erwei > div{
+	width:300px;
+}
+#tail .help .erwei > div > div{
+	position:relative;
+	width:60px;
+	float:left;
+}
+#tail .help .erwei > div > div:hover div{
+	display:block;
+}
+#tail .help .erwei > div > div > p{
+	width:60px;
+	line-height:20px;
+	color:#aaa;
+}
+#tail .help .erwei > div > div > div{
+	display:none;
+	position:absolute;
+	top:20px;
+	left:0px;
+}
+#tail .help .erwei > div > div > div img{
+	width:100px;
+}
+#tail .web{
+	line-height:40px;
+	border-bottom:1px solid #ccc;
+}
+#tail .web a{
+	color:#666;
+}
+#tail .web a:hover{
+	color:#FF5577;
+}
+#tail .web a + a{
+	padding:10px;
+}
+#tail .about{
+	line-height:40px;
+}
+#tail .about a + a{
+	margin-left:30px;
+}
+#tail .about a:hover{
+	color:#FF5577;
+}
+#tail .about span{
+	font-size:12px;
+	color:#aaa;
+}
+#tail .else{
+	width:980px;
+	line-height:20px;
+	font-size:12px;
+	color:#aaa;
+}

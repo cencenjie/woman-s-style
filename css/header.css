@@ -1,0 +1,541 @@
+@charset "utf-8";
+
+#header{
+	width:100%;
+}
+#header .header-top{
+	position:relative;
+	width:100%;
+	background-color:#f2f2f2;
+	border:1px solid #e7e7e7;
+}
+#header .header-top .forauto{
+	width:1190px;
+	margin:0 auto;
+}
+
+#header .header-top .forauto > a{/* 蘑菇街首页 */
+	float:left;
+	height:30px;
+	line-height:30px;
+	background:url('../images/icon/1.png') no-repeat 16px -235px;
+	padding-left: 40px;
+}
+#header .header-top .forauto .mine{
+	position:relative;
+	float:right;
+}
+#header .header-top .mine > div{
+	float:left;
+	height:30px;
+	line-height:31px;
+	padding:0 15px;
+}
+#header .header-top .mine > div:not(.login){
+	background:url('../images/icon/1.png') no-repeat;
+	background-position: -100px -530px;
+}
+#header .header-top .mine .order a{
+	padding-left:20px;
+	background:url('../images/icon/1.png') no-repeat;
+	background-position: -5px -535px;
+}
+#header .header-top .mine .shopcar a{
+	padding-left:30px;
+	background:url('../images/icon/1.png') no-repeat;
+	background-position: -3px -427px;
+}
+#header .header-top .mine .shopcar:hover div{
+	display:block;
+}
+#header .header-top .mine .shopcar div{
+	display:none;
+	position:absolute;
+	top:30px;
+	left:60px;
+	width:200px;
+	padding:20px 0;
+	text-align:center;
+	color:#999;
+	border-radius:0 0 10px 10px ;
+	background-color:#f2f2f2;
+}
+#header .header-top .mine .server > a{
+	padding-right:10px;
+	background:url('../images/icon/1.png') no-repeat;
+	background-position: 45px -500px;
+}
+#header .header-top .mine .server div{
+	display:none;
+	position:absolute;
+	top:30px;
+	left:246px;
+	width:100px;
+	padding-bottom:5px;
+	color:#999;
+	border-radius:0 0 5px 5px ;
+	background-color:#f2f2f2;
+}
+#header .header-top .mine .server:hover div{
+	display:block;
+}
+#header .header-top .mine .server div a{
+	display:block;
+	height:30px;
+	line-height:30px;
+	padding:0 15px;
+}
+#header .header-top .mine .server div a:hover{
+	background-color:#e4e4e4;
+}
+#header .header-top .mine .shopper > a{
+	position:relative;
+	padding-left:30px;
+	background:url('../images/icon/1.png') no-repeat;
+	background-position: 0px -575px;
+	padding-right:10px;
+}
+#header .header-top .mine .shopper > a:after{
+	content:'';
+	position:absolute;
+	right:0;
+	top:0;
+	width:10px;
+	height:30px;
+	background:url('../images/icon/1.png') no-repeat;
+	background-position: -2px -500px;;
+	
+}
+#header .header-top .mine .shopper > div{
+	display:none;
+	position:absolute;
+	top:30px;
+	left:334px;
+	width:100px;
+	padding-bottom:5px;
+	color:#999;
+	border-radius:0 0 5px 5px ;
+	background-color:#f2f2f2;
+}
+#header .header-top .mine .shopper:hover div{
+	display:block;
+}
+#header .header-top .mine .shopper > div > a{
+	display:block;
+	height:30px;
+	line-height:30px;
+	padding:0 15px;
+}
+#header .header-top .mine .shopper > div > a:hover{
+	background-color:#e4e4e4;
+}
+#mogu .header .header-top  a{
+	display:block;
+	height:30px;
+}
+/* header-top结束 */
+#header .header-mid{
+	width:100%;
+	height:90px;
+	background-color:#fff;
+}
+#header .header-mid .forauto{
+	width:1190px;
+	margin:auto;
+	/* background-color:pink; */
+}
+#header .header-mid .forauto h1{
+	float:left;
+	width:240px;
+	padding:20px 0;
+}
+#header .header-mid .forauto h1 a{
+	display:block;
+	height:50px;
+}
+#header .header-mid .forauto .guanggao{
+	float:left;
+	width:220px;
+	height:90px;
+}
+#header .header-mid .forauto h1 img{
+	height:50px;
+}
+#header .header-mid .forauto .guanggao img{
+	height:90px;
+}
+#header .header-mid .forauto .search{
+	float:left;
+	width:482px;
+	height:65px;
+	padding-top:25px;
+	margin:0 124px;
+}
+
+#header .header-mid .forauto .search .searchbox{
+    width:480px;
+	border:1px solid #ff2258 ;
+	height:32px;
+}
+#header .header-mid .forauto .search .searchbox > div{/* 搜商品+三角形 */
+	position:relative;
+	float:left;
+	width:60px;
+}
+#header .header-mid .forauto .search .searchbox > div > a{
+	position:relative;
+	display:block;
+	height:32px;
+	line-height:32px;
+	padding-left:10px;
+	color:#ff00a3;
+}
+#header .header-mid .forauto .search .searchbox > div > a span{
+	position:absolute;
+	top:0px;
+	left:48px;
+	width:10px;
+	height:32px;
+	background:url('../images/icon/1.png') no-repeat;
+	background-position:-56px -214px ;
+}
+#header .header-mid .forauto .search .searchbox > div div{
+	display:none;
+	position:absolute;
+	top:33px;
+	left:0px;
+	width:60px;
+	background-color:#fff;
+}
+#header .header-mid .forauto .search .searchbox > div:hover div{
+	display:block;
+}
+#header .header-mid .forauto .search .searchbox > div div a{
+	display:block;
+	height:30px;
+	line-height:30px;
+	color:#ff00a3;
+	text-align:center;
+}
+#header .header-mid .forauto .search .searchbox > div div a:hover{
+}
+#header .header-mid .forauto .search .searchbox input:first-of-type{
+	width:316px;
+	height:32px;
+	border:0;
+	text-indent:10px;
+	font-size:12px;
+	padding:0;
+	outline:none;
+}
+#header .header-mid .forauto .search .searchbox input:last-of-type{
+	width:100px;
+	height:32px;
+	line-height:32px;
+	border:0;
+	background-color:#ff2258;
+	cursor:pointer;
+	outline:none;
+}
+#header .header-mid .forauto .search .searchlist{
+	width:482px;
+	height:20px;
+	padding-top:10px;
+}
+#header .header-mid .forauto .search .searchlist a{
+	margin-right:8px;
+}
+#header .header-mid .forauto .search .searchlist a:hover{
+	text-decoration:underline;
+	color:#f07;
+}
+/* header-mid暂时结束 */
+#header .header-bot .bot-one{
+	width:100%;
+	height:40px;
+	border-bottom:2px solid #f07;
+	background-color:#fff;
+}
+#header .header-bot .bot-one p a{
+	color:#000;
+}
+#header .header-bot .bot-one p a:hover{
+	color:#ff55bd;
+}
+
+#header .header-bot .bot-one .forauto{
+	width:1190px;
+	height:40px;
+	margin:0 auto;
+	font-size:20px;
+}
+#header .header-bot .bot-one .forauto div{
+	float:left;
+	width: 207px;
+	background:url('../images/icon/2.png') no-repeat ;
+	padding-left:50px;
+	border-radius:5px 5px 0 0;
+}
+#header .header-bot .bot-one .forauto div a{
+	display:block;
+	width:80px;
+	height:40px;
+	line-height:40px;
+	color:#fff;
+}
+#header .header-bot .bot-one .forauto p{
+	float:left;
+	width:140px;
+	text-align:center;
+}
+#header .header-bot .bot-one .forauto p a{
+	display:block;
+	height:40px;
+	/* color:#000; */
+	line-height:40px;
+}
+/* bot-one暂时结束 */
+#header .header-bot .bot-two{
+	width:100%;
+	height:440px;
+	background-color:#FE94AA;
+}
+#header .header-bot .bot-two .forauto{
+	width:1190px;
+	margin:0 auto;
+	height:440px;
+}
+#header .header-bot .bot-two .forauto > div{
+	float:left;
+}
+#header .header-bot .bot-two .forauto .nav{
+	position:relative;
+	width:256px;
+	background-color:#ffeaee;
+	padding-top:6px;
+}
+#header .header-bot .bot-two .forauto .nav > ul {
+	height:434px;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li {
+	width:234px;
+	height:31px;
+	line-height:31px;
+	border-left:2px solid #ffeaee;
+	padding-left:20px;
+
+}
+#header .header-bot .bot-two .forauto .nav > ul > li:hover{
+	background-color:#fff;
+	border-left:2px solid red;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li:hover .des{
+	display:block;
+	z-index:2;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .summary{
+	height:31px;
+	line-height:31px;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .summary a:hover{
+	text-decoration:underline;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .summary a:not(.title){
+	margin-left:10px;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .summary .title{
+	font-size:14px;
+	font-weight:bold;
+	color:#000;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .summary .hot{
+	position:relative;
+	padding-right:20px;
+	color:#f07;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .summary a.hot:after{
+	content:'';
+	position:absolute;
+	right:0;
+	top:0;
+	width:20px;
+	height:31px;
+	background:url('../images/icon/3.png') no-repeat 5px 0/12px 14px;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .des{
+	display:none;
+	position:absolute;
+	top:0;
+	left:256px;
+	width:780px;
+	height:440px;
+	background-color:#fff;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li  .des .des-list{
+	float:left;
+	width:520px;
+	height:440px;
+	border-right:1px solid #ddd;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li  .des .des-list li{
+	width:480px;
+	padding:20px 20px 0 20px;
+	border:0;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li  .des .des-list li .title{
+	height:31px;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .des .des-list h3{
+	float:left;
+	font-weight:bold;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .des .des-list h3 a{
+	color:#000;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .des .des-list .title > a{
+	float:right;
+	position:relative;
+	height:31px;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .des .des-list .title > a:after{
+	position:absolute;
+	top:0px;
+	left:20px;
+	content:'';
+	padding-right:15px;
+	width:15px;
+	height:31px;
+	background:url('../images/icon/4.png') no-repeat 0px 8px/15px 15px;
+}
+
+#header .header-bot .bot-two .forauto .nav > ul > li .des .des-list p{
+	width:430px;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .des .des-list p a{
+	margin-right:10px;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .des .des-list p a:hover{
+	text-decoration:underline;
+}
+/* des-guess开始 */
+#header .header-bot .bot-two .forauto .nav > ul > li .des .des-guess{
+	float:left;
+	height:440px;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .des .des-guess h2{
+	width:258px;
+	padding:10px 0;
+	text-align:center;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .des .des-guess > ul{
+	width:228px;
+	padding:0 15px ;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .des .des-guess > ul > li{
+	float:left;
+	margin-bottom:4px;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .des .des-guess > ul > li.r-padding{
+	margin-right:20px;
+
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .des .des-guess > ul > li a{
+	display:block;
+	width:104px;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .des .des-guess > ul > li a img{
+	width:104px;
+	vertical-align:top;
+}
+#header .header-bot .bot-two .forauto .nav > ul > li .des .des-guess > ul > li a p{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	line-height:22px;
+}
+#header .header-bot .bot-two .forauto .postgirl{
+	position:relative;
+	width:768px;
+	height:440px;
+}
+#header .header-bot .bot-two .forauto .postgirl:after{
+	content:'';
+	position:absolute;
+	top:410px;
+	left:732px;
+	width:28px;
+	height:15px;
+	background:url('../images/icon/6.png') no-repeat;
+}
+#header .header-bot .bot-two .forauto .vip{
+	width:166px;
+	height:440px;
+	/* background-color:red; */
+}
+#header .header-bot .bot-two .forauto .vip > div:first-child{
+	height:195px;
+	margin:10px 0;
+	background-color:#ffeaee;
+	padding:10px;
+}
+#header .header-bot .bot-two .forauto .vip > div:first-child a:first-of-type{
+	display:block;
+	width:72px;
+	height:57px;
+	padding-top:15px;
+	border-radius:50%;
+	background-color:#ff94c6;
+	line-height:72px;
+	text-align:center;
+	margin-left:37px;
+}
+#header .header-bot .bot-two .forauto .vip > div:first-child a:first-of-type img{
+	width:30px;
+}
+#header .header-bot .bot-two .forauto .vip > div:first-child p{
+	height:30px;
+	line-height:30px;
+	color:#333;
+	text-align:center;
+}
+#header .header-bot .bot-two .forauto .vip > div:first-child p span{
+	font-weight:bold;
+}
+#header .header-bot .bot-two .forauto .vip > div:first-child > a:last-of-type{
+	display:block;
+	width:72px;
+	height:24px;
+	line-height:24px;
+	border:1px solid #ffa1b3;
+	margin-left:36px;
+	text-align:center;
+	color:#ffa1b3;
+}
+#header .header-bot .bot-two .forauto .vip > div:last-child{
+	height:205px;
+	background-color:#ffeaee;
+
+}
+#header .header-bot .bot-two .forauto .vip > div:last-child a{
+	display:block;
+	height:205px;
+	text-align:center;
+	font-size:16px;
+}
+#header .header-bot .bot-two .forauto .vip > div:last-child a h3{
+	font-size:16px;
+	font-weight:normal;
+	color:#333;
+	height:22px;
+	padding-top:20px;
+	
+}
+#header .header-bot .bot-two .forauto .vip > div:last-child a p{
+	font-size:14px;
+	color:#666;
+	line-height:30px;
+	
+}
+#header .header-bot .bot-two .forauto .vip > div:last-child a img{
+	width:130px;
+}
